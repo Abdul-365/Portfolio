@@ -1,0 +1,74 @@
+[
+    [   
+        {
+            "title": "FarmHub",
+            "image": "/Projects/Farmhub.png",
+            "description": "An Agriculture Website where users can learn about crops and shop for agricultural products.",
+            "techStack": [
+                {
+                    "name": "React",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                },
+                {
+                    "name": "Express.js",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                },
+                {
+                    "name": "MongoDB",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                }
+            ]
+        },
+        {
+            "title": "Shopping Website",
+            "image": "/Projects/Shopping Website.png",
+            "description": "E commerce website made with MERN stack. Currently working on this.",
+            "techStack": [
+                {
+                    "name": "React",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                },
+                {
+                    "name": "Express.js",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                },
+                {
+                    "name": "MongoDB",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Sign Up Page",
+            "image": "/Projects/Sign Up.png",
+            "description": "Clone of Epic Games sign up page with backend. Here users can fill details, view and modify them.",
+            "techStack": [
+                {
+                    "name": "Node.js",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                },
+                {
+                    "name": "Express.js",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                },
+                {
+                    "name": "MongoDB",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                }
+            ]
+        },
+        {
+            "title": "Samsung Clone",
+            "image": "/Projects/Samsung.png",
+            "description": "Responsive website made with the help of Bootstrap",
+            "techStack": [
+                {
+                    "name": "Bootstrap",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                }
+            ]
+        }
+    ]
+]

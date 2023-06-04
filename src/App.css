@@ -1,0 +1,118 @@
+/* General */
+
+:root {
+    --Black: #1A1A40;
+    --Navy: #0a001a;
+    --Purple: #ad50ff;
+    --Dark-Purple: #360066;
+}
+
+html,
+body {
+    background-color: var(--Navy) !important;
+    margin: 0;
+    font-family: 'Microsoft YaHei UI' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.text-purple {
+    color: var(--Purple);
+}
+
+/* Navbar */
+
+#Navbar {
+    height: 5em;
+    background-color: rgba(10, 0, 26, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+#Navbar a {
+    color: var(--Purple);
+    font-size: 1.2em;
+}
+
+#Navbar .Logo {
+    width: 11%;
+}
+
+#Navbar .Links a {
+    padding-left: 2em;
+}
+
+#Intro, #AboutMe, #Projects {
+    height: 100vh;
+}
+
+/* Intro */
+
+#Intro .illustration {
+    width: 90%;
+}
+
+/* Projects */
+
+#Projects .carousel-control-next,
+.carousel-control-prev {
+    width: 5% !important;
+}
+
+#Projects .carousel-indicators {
+    bottom: -4em !important;
+}
+
+#Projects .carousel-inner {
+    width: 80%;
+}
+
+#Projects .card {
+    background-color: var(--Dark-Purple);
+    color: white;
+    /* font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; */
+    width: 43%;
+    height: 32em !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+#Projects .card-img-top {
+    border-radius: 0;
+    object-fit: cover;
+    height: 13.4em;
+}
+
+#Projects .image-wrapper:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: rgba(137, 18, 255, 0.133);     */
+    transition: background .3s linear;
+}
+
+#Projects .image-wrapper:hover:before {
+    background: none;
+}
+
+#Projects .card-body {
+    height: calc(100% - 13.4em);
+}
+
+#Projects .tech-logo {
+    width: 16%;
+    margin-right: 0.5em;
+}
+
+#Projects .tech-used {
+    row-gap: 1em;    
+} 
+
