@@ -107,12 +107,11 @@ a {
     height: calc(100% - 13.4em);
 }
 
-#Projects .tech-logo {
-    width: 16%;
-    margin-right: 0.5em;
-}
-
 #Projects .tech-used {
     row-gap: 1em;    
 } 
 
+#Projects .tech-logo {
+    width: 2rem;
+    margin-right: 0.5em;
+}

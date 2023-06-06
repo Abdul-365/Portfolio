@@ -31,12 +31,12 @@ export default function () {
                                                 <Card.Text className='d-flex flex-column mb-auto'>
                                                     {project.description}
                                                 </Card.Text>
-                                                <div className='tech-used d-flex flex-wrap'>
+                                                <div className='tech-used d-flex justify-content-between'>
                                                     {project.techStack.map((tech) => (
-                                                        <div className='d-flex w-50 align-items-center'>
-                                                        <img className='tech-logo' src={tech.logo} />
-                                                        <p className='m-0 d-inline'>{tech.name}</p>
-                                                    </div>
+                                                        <div className='d-flex align-items-center'>
+                                                            <img className='tech-logo' src={tech.logo} />
+                                                            <p className='m-0 d-inline'>{tech.name}</p>
+                                                        </div>
                                                     ))}
                                                 </div>
                                             </Card.Body>

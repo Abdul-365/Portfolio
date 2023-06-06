@@ -3,7 +3,7 @@
         {
             "title": "FarmHub",
             "image": "/Projects/Farmhub.png",
-            "description": "An Agriculture Website where users can learn about crops and shop for agricultural products.",
+            "description": "An Agriculture Website where users can learn about crops and shop for agricultural products. Made this website in GeeksforGeeks hackathon along with my team and did a major contribution in it.",
             "techStack": [
                 {
                     "name": "React",
@@ -22,7 +22,7 @@
         {
             "title": "Shopping Website",
             "image": "/Projects/Shopping Website.png",
-            "description": "E commerce website made with MERN stack. Currently working on this.",
+            "description": "A multi-vendor E-commerce website made with MERN stack. Currently working on this project.",
             "techStack": [
                 {
                     "name": "React",
@@ -41,9 +41,9 @@
     ],
     [
         {
-            "title": "Sign Up Page",
+            "title": "Sign Up Form",
             "image": "/Projects/Sign Up.png",
-            "description": "Clone of Epic Games sign up page with backend. Here users can fill details, view and modify them.",
+            "description": "A sign up form with UI cloned from Epic Games's sign up form and it also has a backend. Here users can fill details, view and modify them.",
             "techStack": [
                 {
                     "name": "Node.js",
@@ -62,7 +62,7 @@
         {
             "title": "Samsung Clone",
             "image": "/Projects/Samsung.png",
-            "description": "Responsive website made with the help of Bootstrap",
+            "description": "Clone of Samsung's home page UI. Responsive website made with the help of Bootstrap",
             "techStack": [
                 {
                     "name": "Bootstrap",
