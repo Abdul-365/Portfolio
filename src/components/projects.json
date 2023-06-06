@@ -4,7 +4,7 @@
             "title": "FarmHub",
             "image": "/Projects/Farmhub.png",
             "link": "https://github.com/Abdul-365/FarmHub",
-            "description": "An Agriculture Website where users can learn about crops and shop for agricultural products. Made this website in GeeksforGeeks hackathon along with my team and did a major contribution in it.",
+            "description": "An agriculture website created in the Solving For India hackathon by GeeksforGeeks along with my team. The website provides users with information about crops and allows them to shop for agricultural products. I played a major role in the development of this project.",
             "techStack": [
                 {
                     "name": "React",
@@ -24,7 +24,7 @@
             "title": "Shopping Website",
             "image": "/Projects/Shopping Website.png",
             "link": "https://github.com/Abdul-365/E-commerce-website",
-            "description": "A multi-vendor E-commerce website made with MERN stack. Currently working on this project.",
+            "description": "A multi-vendor e-commerce website made using the MERN stack. This website allows multiple vendors to sell their products on a single platform. Currently working on this project.",
             "techStack": [
                 {
                     "name": "React",
@@ -46,7 +46,7 @@
             "title": "Sign Up Form",
             "image": "/Projects/Sign Up.png",
             "link": "https://github.com/Abdul-365/Epic-Games-Form",
-            "description": "A sign up form with UI cloned from Epic Games's sign up form and it also has a backend. Here users can fill details, view and modify them.",
+            "description": "A sign-up form with a user interface that was inspired by Epic Games’ sign-up form. The form also has a backend where users can enter their details, view them, and make changes as needed.",
             "techStack": [
                 {
                     "name": "Node.js",
@@ -66,7 +66,7 @@
             "title": "Samsung Clone",
             "image": "/Projects/Samsung.png",
             "link": "https://github.com/Abdul-365/Samsung-Clone",
-            "description": "Clone of Samsung's home page UI. Responsive website made with the help of Bootstrap",
+            "description": "A responsive website that replicates the user interface of Samsung’s homepage. The website was built using Bootstrap to ensure that it adapts to different screen sizes and devices.",
             "techStack": [
                 {
                     "name": "Bootstrap",
