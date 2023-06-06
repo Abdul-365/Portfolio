@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import projects from './projects.json'
 
-export default function () {
+export default function Projects() {
     return (
         <Container id='Projects' className='d-flex flex-column justify-content-center'>
             <Row className='mb-4'>
@@ -34,7 +34,7 @@ export default function () {
                                                 <div className='tech-used d-flex justify-content-between'>
                                                     {project.techStack.map((tech) => (
                                                         <div className='d-flex align-items-center'>
-                                                            <img className='tech-logo' src={tech.logo} />
+                                                            <img className='tech-logo' src={tech.logo} alt={tech.name} />
                                                             <p className='m-0 d-inline'>{tech.name}</p>
                                                         </div>
                                                     ))}

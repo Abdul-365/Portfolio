@@ -5,12 +5,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-export default function () {
+export default function Appbar() {
     return (
         <Container className='position-fixed top-0 start-0 end-0'>
             <Navbar expand='md' id="Navbar">
                 <Navbar.Brand href="#">
-                    <img className='Logo' src='./PortfolioLogo.png' />
+                    <img className='Logo' src='./PortfolioLogo.png' alt='Logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
                 <Navbar.Offcanvas

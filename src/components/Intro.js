@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export default function () {
+export default function Intro() {
     return (
         <Container id='Intro'>
             <Row className='h-100'>
@@ -16,7 +16,7 @@ export default function () {
                     </p>
                 </Col>
                 <Col className='d-flex justify-content-center'>
-                    <img className='illustration' src="./ill.svg"/>
+                    <img className='illustration' src="./ill.svg" alt='illustration'/>
                 </Col>
             </Row>
         </Container>
