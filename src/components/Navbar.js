@@ -22,7 +22,7 @@ export default function Appbar() {
                         <Nav className="Links justify-content-end flex-grow-1 pe-3">
                             <Nav.Link href="#AboutMe">About Me</Nav.Link>
                             <Nav.Link href="#Projects">Projects</Nav.Link>
-                            <Nav.Link href="/Resume.pdf">Resume</Nav.Link>
+                            <Nav.Link href="/Abdul Resume.pdf">Resume</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>
