@@ -22,7 +22,7 @@ export default function Projects() {
                             <div className='d-flex justify-content-around'>
                                 {slide.map((project) => (
                                     <Card>
-                                        <a className='h-100' href='https://github.com/Abdul-365/Samsung-Clone'>
+                                        <a className='h-100' href={project.link}>
                                             <div className='image-wrapper position-relative'>
                                                 <Card.Img variant="top" src={project.image} />
                                             </div>

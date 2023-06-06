@@ -3,6 +3,7 @@
         {
             "title": "FarmHub",
             "image": "/Projects/Farmhub.png",
+            "link": "https://github.com/Abdul-365/FarmHub",
             "description": "An Agriculture Website where users can learn about crops and shop for agricultural products. Made this website in GeeksforGeeks hackathon along with my team and did a major contribution in it.",
             "techStack": [
                 {
@@ -22,6 +23,7 @@
         {
             "title": "Shopping Website",
             "image": "/Projects/Shopping Website.png",
+            "link": "https://github.com/Abdul-365/E-commerce-website",
             "description": "A multi-vendor E-commerce website made with MERN stack. Currently working on this project.",
             "techStack": [
                 {
@@ -43,6 +45,7 @@
         {
             "title": "Sign Up Form",
             "image": "/Projects/Sign Up.png",
+            "link": "https://github.com/Abdul-365/Epic-Games-Form",
             "description": "A sign up form with UI cloned from Epic Games's sign up form and it also has a backend. Here users can fill details, view and modify them.",
             "techStack": [
                 {
@@ -62,6 +65,7 @@
         {
             "title": "Samsung Clone",
             "image": "/Projects/Samsung.png",
+            "link": "https://github.com/Abdul-365/Samsung-Clone",
             "description": "Clone of Samsung's home page UI. Responsive website made with the help of Bootstrap",
             "techStack": [
                 {
