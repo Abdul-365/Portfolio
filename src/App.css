@@ -33,27 +33,14 @@ a {
     backdrop-filter: blur(10px);
 }
 
-#Navbar a {
-    color: var(--Purple);
-    font-size: 1.2em;
-}
-
-#Navbar .Logo {
-    width: 11%;
-}
-
-#Navbar .Links a {
+/* #Navbar .Links a {
     padding-left: 2em;
-}
+} */
+
+/* Main */
 
 #Intro, #AboutMe, #Projects {
     height: 100vh;
-}
-
-/* Intro */
-
-#Intro .illustration {
-    width: 90%;
 }
 
 /* Projects */
