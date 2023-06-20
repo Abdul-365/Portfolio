@@ -22,7 +22,11 @@ a {
 }
 
 .text-purple {
-    color: var(--Purple);
+    color: var(--Purple) !important;
+}
+
+.bg-dark-purple {
+    background-color: var(--Dark-Purple) !important;
 }
 
 /* Navbar */
@@ -33,14 +37,24 @@ a {
     backdrop-filter: blur(10px);
 }
 
-/* #Navbar .Links a {
-    padding-left: 2em;
-} */
-
 /* Main */
 
 #Intro, #AboutMe, #Projects {
     height: 100vh;
+}
+
+/* About Me */
+
+@media (min-width: 576px) {
+    .fs-sm-5 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .fs-xs-6 {
+        font-size: 1rem;
+    }
 }
 
 /* Projects */

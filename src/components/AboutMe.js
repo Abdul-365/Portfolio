@@ -14,10 +14,7 @@ export default function AboutMe() {
                 </Row>
                 <Row>
                     <Col className='d-flex justify-content-center'>
-                        <p className='description d-none d-sm-block fs-5 text-light w-75' style={{ textAlign: 'justify' }}>
-                            Hi there! I'm a full stack web developer and tech enthusiast with a passion for creating innovative solutions. I have expertise in using various technologies to build websites, including React.js, Express.js, and MongoDB. I've worked on projects such as shopping and agriculture websites and have learned a lot through these experiences. I have also achieved victory at the institute level in a hackathon competition. My goal is to continue learning and growing in the field of technology and to use my skills to make a positive impact on the world.
-                        </p>
-                        <p className='description d-block d-sm-none fs-6 text-light w-75' style={{ textAlign: 'justify' }}>
+                        <p className='description fs-xs-6 fs-sm-5 text-light w-75' style={{ textAlign: 'justify' }}>
                             Hi there! I'm a full stack web developer and tech enthusiast with a passion for creating innovative solutions. I have expertise in using various technologies to build websites, including React.js, Express.js, and MongoDB. I've worked on projects such as shopping and agriculture websites and have learned a lot through these experiences. I have also achieved victory at the institute level in a hackathon competition. My goal is to continue learning and growing in the field of technology and to use my skills to make a positive impact on the world.
                         </p>
                     </Col>
