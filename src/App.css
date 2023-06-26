@@ -29,18 +29,11 @@ a {
     background-color: var(--Dark-Purple) !important;
 }
 
-/* Navbar */
-
-#Navbar {
-    height: 5em;
-    background-color: rgba(10, 0, 26, 0.8);
-    backdrop-filter: blur(10px);
-}
-
-/* Main */
-
-#Intro, #AboutMe, #Projects {
-    height: 100vh;
+#Intro,
+#AboutMe,
+#Projects {
+    /* height: 100vh; */
+    height: 50em;
 }
 
 /* About Me */
@@ -59,10 +52,7 @@ a {
 
 /* Projects */
 
-#Projects .carousel-control-next,
-.carousel-control-prev {
-    width: 5% !important;
-}
+/* Carousel */
 
 #Projects .carousel-indicators {
     bottom: -4em !important;
@@ -72,47 +62,16 @@ a {
     width: 80%;
 }
 
+/* Other */
+
 #Projects .card {
     background-color: var(--Dark-Purple);
     color: white;
-    /* font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; */
-    width: 43%;
-    height: 32em !important;
+    max-width: 28rem;
+    min-height: 32em !important;
     border: none !important;
-    border-radius: 0 !important;
-}
-
-#Projects .card-img-top {
-    border-radius: 0;
-    object-fit: cover;
-    height: 13.4em;
-}
-
-#Projects .image-wrapper:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* background-color: rgba(137, 18, 255, 0.133);     */
-    transition: background .3s linear;
-}
-
-#Projects .image-wrapper:hover:before {
-    background: none;
 }
 
 #Projects .card-body {
     height: calc(100% - 13.4em);
-}
-
-#Projects .tech-used {
-    row-gap: 1em;    
-} 
-
-#Projects .tech-logo {
-    width: 2rem;
-    margin-right: 0.5em;
 }
