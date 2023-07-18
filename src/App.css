@@ -32,8 +32,7 @@ a {
 #Intro,
 #AboutMe,
 #Projects {
-    /* height: 100vh; */
-    height: 50em;
+    height: clamp(45em, 100vh, 70em);
 }
 
 /* About Me */
@@ -44,34 +43,48 @@ a {
     }
 }
 
-@media (max-width: 575px) {
-    .fs-xs-6 {
-        font-size: 1rem;
-    }
-}
-
 /* Projects */
-
-/* Carousel */
 
 #Projects .carousel-indicators {
     bottom: -4em !important;
+    z-index: 0 !important;
 }
 
-#Projects .carousel-inner {
-    width: 80%;
+@media (min-width: 1200px) {
+    #Projects .carousel-inner {
+        width: 80%;
+    }
 }
 
-/* Other */
+@media (max-width: 767px) {
+    .carousel-control-prev, .carousel-control-next  {
+        height: 5em;
+        top: unset !important;
+        bottom: -4.5em !important;
+    }
+    .carousel-control-prev {
+        left: 2em !important; 
+    }
+    .carousel-control-next {
+        right: 2em !important; 
+    }
+}
 
 #Projects .card {
     background-color: var(--Dark-Purple);
     color: white;
-    max-width: 28rem;
-    min-height: 32em !important;
     border: none !important;
+    max-width: 26rem;
 }
 
-#Projects .card-body {
-    height: calc(100% - 13.4em);
+@media (min-width: 576px) {
+    #Projects .card {
+        height: 32rem;
+    }
+}
+
+@media (max-width: 575px) {
+    #Projects .card {
+        height: 36rem;
+    }
 }
