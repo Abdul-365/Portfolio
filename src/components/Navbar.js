@@ -27,7 +27,7 @@ export default function Appbar() {
     const handleShow = () => setShow(true);
 
     return (
-        <Container className='position-fixed top-0 start-0 end-0'>
+        <Container className='Navbar top-0 start-0 end-0'>
             <Navbar
                 expand='md'
                 id="Navbar"

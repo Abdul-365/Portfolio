@@ -35,6 +35,20 @@ a {
     height: clamp(45em, 100vh, 70em);
 }
 
+/* Navbar */
+
+@media (min-width: 768px) {
+    .Navbar {
+        position: fixed !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .Navbar {
+        position: static !important;
+    }
+}
+
 /* About Me */
 
 @media (min-width: 576px) {
