@@ -1,7 +1,7 @@
-import React from 'react'
-import '../App.css'
-import Row from 'react-bootstrap/Row';
+import React from 'react';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import '../App.css';
 
 export default function Intro() {
     return (

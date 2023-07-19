@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import '../App.css';
+import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import '../App.css';
 
 const NavLinks = [
     {
