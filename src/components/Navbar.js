@@ -27,8 +27,17 @@ export default function Appbar() {
     const handleShow = () => setShow(true);
 
     return (
-        <Container className='position-fixed top-0 start-0 end-0'>
-            <Navbar expand='md' id="Navbar" variant='dark'>
+        <Container className='Navbar top-0 start-0 end-0'>
+            <Navbar
+                expand='md'
+                id="Navbar"
+                variant='dark'
+                style={{
+                    height: '5em',
+                    backgroundColor: 'rgba(10, 0, 26, 0.8)',
+                    backdropFilter: 'blur(10px)'
+                }}
+            >
                 <Container fluid>
                     <Navbar.Brand href="#">
                         <img
@@ -54,7 +63,9 @@ export default function Appbar() {
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                                 {NavLinks.map((link) => (
-                                    <Nav.Link onClick={handleClose} href={link.href}>{link.name}</Nav.Link>
+                                    <Nav.Link key={link.name} onClick={handleClose} href={link.href}>
+                                        {link.name}
+                                    </Nav.Link>
                                 ))}
                             </Nav>
                         </Offcanvas.Body>

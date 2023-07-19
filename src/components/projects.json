@@ -1,78 +1,74 @@
 [
-    [   
-        {
-            "title": "FarmHub",
-            "image": "/Projects/Farmhub.png",
-            "link": "https://github.com/Abdul-365/FarmHub",
-            "description": "An agriculture website created in the Solving For India hackathon by GeeksforGeeks along with my team. The website provides users with information about crops and allows them to shop for agricultural products. I played a major role in the development of this project.",
-            "techStack": [
-                {
-                    "name": "React",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                },
-                {
-                    "name": "Express.js",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                },
-                {
-                    "name": "MongoDB",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                }
-            ]
-        },
-        {
-            "title": "Shopping Website",
-            "image": "/Projects/Shopping Website.png",
-            "link": "https://github.com/Abdul-365/E-commerce-website",
-            "description": "A multi-vendor e-commerce website made using the MERN stack. This website allows multiple vendors to sell their products on a single platform. Currently working on this project.",
-            "techStack": [
-                {
-                    "name": "React",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                },
-                {
-                    "name": "Express.js",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                },
-                {
-                    "name": "MongoDB",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "title": "Sign Up Form",
-            "image": "/Projects/Sign Up.png",
-            "link": "https://github.com/Abdul-365/Epic-Games-Form",
-            "description": "A sign-up form with a user interface that was inspired by Epic Games’ sign-up form. The form also has a backend where users can enter their details, view them, and make changes as needed.",
-            "techStack": [
-                {
-                    "name": "Node.js",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                },
-                {
-                    "name": "Express.js",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                },
-                {
-                    "name": "MongoDB",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                }
-            ]
-        },
-        {
-            "title": "Samsung Clone",
-            "image": "/Projects/Samsung.png",
-            "link": "https://github.com/Abdul-365/Samsung-Clone",
-            "description": "A responsive website that replicates the user interface of Samsung’s homepage. The website was built using Bootstrap to ensure that it adapts to different screen sizes and devices.",
-            "techStack": [
-                {
-                    "name": "Bootstrap",
-                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-                }
-            ]
-        }
-    ]
+    {
+        "title": "FarmHub",
+        "image": "/Projects/Farmhub.png",
+        "link": "https://github.com/Abdul-365/FarmHub",
+        "description": "An agriculture website created in the Solving For India hackathon by GeeksforGeeks along with my team. The website provides users with information about crops and allows them to shop for agricultural products. I played a major role in the development of this project.",
+        "techStack": [
+            {
+                "name": "React",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            },
+            {
+                "name": "Express.js",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+            },
+            {
+                "name": "MongoDB",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "Shopping Website",
+        "image": "/Projects/Shopping Website.png",
+        "link": "https://github.com/Abdul-365/E-commerce-website",
+        "description": "A multi-vendor e-commerce website made using the MERN stack. This website allows multiple vendors to sell their products on a single platform. Currently working on this project.",
+        "techStack": [
+            {
+                "name": "React",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            },
+            {
+                "name": "Express.js",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+            },
+            {
+                "name": "MongoDB",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "Sign Up Form",
+        "image": "/Projects/Sign Up.png",
+        "link": "https://github.com/Abdul-365/Epic-Games-Form",
+        "description": "A sign-up form with a user interface that was inspired by Epic Games’ sign-up form. The form also has a backend where users can enter their details, view them, and make changes as needed.",
+        "techStack": [
+            {
+                "name": "Node.js",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            },
+            {
+                "name": "Express.js",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+            },
+            {
+                "name": "MongoDB",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "Samsung Clone",
+        "image": "/Projects/Samsung.png",
+        "link": "https://github.com/Abdul-365/Samsung-Clone",
+        "description": "A responsive website that replicates the user interface of Samsung’s homepage. The website was built using Bootstrap to ensure that it adapts to different screen sizes and devices.",
+        "techStack": [
+            {
+                "name": "Bootstrap",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+            }
+        ]
+    }
 ]

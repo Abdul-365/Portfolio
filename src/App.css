@@ -29,18 +29,24 @@ a {
     background-color: var(--Dark-Purple) !important;
 }
 
-/* Navbar */
-
-#Navbar {
-    height: 5em;
-    background-color: rgba(10, 0, 26, 0.8);
-    backdrop-filter: blur(10px);
+#Intro,
+#AboutMe,
+#Projects {
+    height: clamp(45em, 100vh, 70em);
 }
 
-/* Main */
+/* Navbar */
 
-#Intro, #AboutMe, #Projects {
-    height: 100vh;
+@media (min-width: 768px) {
+    .Navbar {
+        position: fixed !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .Navbar {
+        position: static !important;
+    }
 }
 
 /* About Me */
@@ -51,68 +57,48 @@ a {
     }
 }
 
-@media (max-width: 575px) {
-    .fs-xs-6 {
-        font-size: 1rem;
-    }
-}
-
 /* Projects */
-
-#Projects .carousel-control-next,
-.carousel-control-prev {
-    width: 5% !important;
-}
 
 #Projects .carousel-indicators {
     bottom: -4em !important;
+    z-index: 0 !important;
 }
 
-#Projects .carousel-inner {
-    width: 80%;
+@media (min-width: 1200px) {
+    #Projects .carousel-inner {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-control-prev, .carousel-control-next  {
+        height: 5em;
+        top: unset !important;
+        bottom: -4.5em !important;
+    }
+    .carousel-control-prev {
+        left: 2em !important; 
+    }
+    .carousel-control-next {
+        right: 2em !important; 
+    }
 }
 
 #Projects .card {
     background-color: var(--Dark-Purple);
     color: white;
-    /* font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; */
-    width: 43%;
-    height: 32em !important;
     border: none !important;
-    border-radius: 0 !important;
+    max-width: 26rem;
 }
 
-#Projects .card-img-top {
-    border-radius: 0;
-    object-fit: cover;
-    height: 13.4em;
+@media (min-width: 576px) {
+    #Projects .card {
+        height: 32rem;
+    }
 }
 
-#Projects .image-wrapper:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* background-color: rgba(137, 18, 255, 0.133);     */
-    transition: background .3s linear;
-}
-
-#Projects .image-wrapper:hover:before {
-    background: none;
-}
-
-#Projects .card-body {
-    height: calc(100% - 13.4em);
-}
-
-#Projects .tech-used {
-    row-gap: 1em;    
-} 
-
-#Projects .tech-logo {
-    width: 2rem;
-    margin-right: 0.5em;
+@media (max-width: 575px) {
+    #Projects .card {
+        height: 36rem;
+    }
 }
