@@ -20,14 +20,14 @@
         ]
     },
     {
-        "title": "Shopping Website",
-        "image": "/Projects/Shopping Website.png",
-        "link": "https://github.com/Abdul-365/E-commerce-website",
-        "description": "A multi-vendor e-commerce website made using the MERN stack. This website allows multiple vendors to sell their products on a single platform. Currently working on this project.",
+        "title": "Online IDE",
+        "image": "/Projects/Online IDE.png",
+        "link": "https://github.com/Abdul-365/Judge0-Clone",
+        "description": "An online IDE project which is primarily backend focused. Its API is designed akin to the Judge-0 API, it uses docker to create a safe sandbox environment to execute code. Users can also create account and save their code submissions to database.",
         "techStack": [
             {
-                "name": "React",
-                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                "name": "Docker",
+                "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
             },
             {
                 "name": "Express.js",
