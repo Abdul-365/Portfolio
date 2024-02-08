@@ -16,7 +16,7 @@ const NavLinks = [
     },
     {
         name: "Resume",
-        href: "/Abdul Resume.pdf"
+        href: "/Abdul Mannan Resume.pdf"
     }
 ]
 
